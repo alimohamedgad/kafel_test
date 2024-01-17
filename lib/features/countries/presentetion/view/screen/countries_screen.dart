@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kafel_project/features/countries/presentetion/cubit/countries_cubit.dart';
+import '../../cubit/countries_cubit.dart';
 
 import '../widget/pagination_widget.dart';
 

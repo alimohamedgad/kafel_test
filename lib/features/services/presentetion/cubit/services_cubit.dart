@@ -1,9 +1,8 @@
 import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
-import 'package:equatable/equatable.dart';
-import 'package:kafel_project/features/services/data/data_source/remote_services_data_source.dart';
-import 'package:kafel_project/features/services/data/model/services_model.dart';
+import '../../data/data_source/remote_services_data_source.dart';
+import '../../data/model/services_model.dart';
 
 import '../../../../core/utils/api_constant.dart';
 

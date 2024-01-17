@@ -1,5 +1,4 @@
-import 'package:kafel_project/features/auth/data/model/tags_user_model.dart';
-
+import 'tags_user_model.dart';
 import 'typ_user_model.dart';
 
 class DataUserModel {
@@ -23,13 +22,13 @@ class DataUserModel {
   final String lastName;
   final String? password;
   final String about;
-  final List tags;
+  final List<TagsUserModel> tags;
   final List<String> favoriteSocialMedia;
   final int salary;
   final String email;
   final dynamic birthDate;
   final int gender;
-  final dynamic type;
+  final TypeUserModel type;
   final String avatar;
 
   Map<String, dynamic> toMap() {
@@ -38,13 +37,13 @@ class DataUserModel {
       'first_name': firstName,
       'last_name': lastName,
       'about': about,
-      'tags': [],
+      'tags': tags.map((e) => e).toList(),
       'favorite_social_media': favoriteSocialMedia,
       'salary': salary,
       'email': email,
       'birth_date': birthDate,
       'gender': gender,
-      'type': type.toMap(),
+      'type': type,
       'avatar': avatar,
       'password': password,
     };

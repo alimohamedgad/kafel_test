@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kafel_project/core/app_image/app_image.dart';
-import 'package:kafel_project/features/auth/presentetion/cubit/auth_cubit.dart';
-import 'package:kafel_project/features/bottom_nav_bar.dart';
-import 'package:kafel_project/features/services/presentetion/view/screens/services_screen.dart';
+import '../../../../../core/app_image/app_image.dart';
+import '../../cubit/auth_cubit.dart';
+import '../../../../bottom_nav_bar.dart';
 
 import '../../../../../core/shared_widget/custom_text_field.dart';
 import '../widget/dont_have_an_account.dart';

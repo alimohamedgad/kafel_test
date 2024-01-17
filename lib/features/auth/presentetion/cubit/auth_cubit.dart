@@ -1,11 +1,9 @@
 import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
-import 'package:dio/dio.dart';
-import 'package:kafel_project/core/api_services/dio_helpler.dart';
-import 'package:kafel_project/features/auth/data/data_source/remote_user_data_source.dart';
-import 'package:kafel_project/features/auth/data/model/data_user_model.dart';
-import 'package:kafel_project/features/auth/data/model/user_model.dart';
+import '../../data/data_source/remote_user_data_source.dart';
+import '../../data/model/data_user_model.dart';
+import '../../data/model/user_model.dart';
 import 'package:meta/meta.dart';
 
 import '../../../../core/utils/api_constant.dart';

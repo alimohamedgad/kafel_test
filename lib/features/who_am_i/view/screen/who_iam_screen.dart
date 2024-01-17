@@ -2,12 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:kafel_project/features/auth/data/model/user_model.dart';
 import 'package:kafel_project/features/auth/presentetion/cubit/auth_cubit.dart';
 
-import '../../../../core/app_image/app_image.dart';
 import '../../../../core/shared_widget/custom_text_field.dart';
-import '../../../auth/presentetion/view/widget/favourite_social_media.dart';
 import '../../../auth/presentetion/view/widget/first_and_last_name.dart';
 import '../../../auth/presentetion/view/widget/get_favourite_social_media.dart';
 import '../../../auth/presentetion/view/widget/skills_item.dart';
